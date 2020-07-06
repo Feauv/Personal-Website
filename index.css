@@ -1,0 +1,161 @@
+/* Font Generation */
+@font-face {
+    font-family: 'poiret_one';
+    src: url('font_and_assets/webfontkit-20200703-165336/poiretone-regular-webfont.woff2') format('woff2'),
+         url('fonts_and_assets/webfontkit-20200703-165336/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Body Setup */
+body {
+    font-family: 'poiret_one';
+    background-color: #E1EFEC;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Nav Bar Setup */
+#bar {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #FA9429;
+    height: 50px;
+    margin: 0 10px 0 10px;
+    /*box-shadow: 0px 2px 0px #FA9429, 0px 4px 0px #FBCA92;*/
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar {
+    margin-left: 60%;
+    padding: 15px 0px 15px 0px;
+    height: 50px;
+}
+/*  */
+
+/* List Item Setup */
+li {
+    float: left;
+}
+.nav-bar-page {
+    width: 25%;
+}
+
+/* a */
+li img {
+    display: inline;
+}
+#profile-pic {
+    margin: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FA9429;
+    border-radius: 30px;
+}
+
+/* div */
+li div {
+    display: inline;
+}
+#name {
+    margin: 15px 10px 15px 0px;
+}
+
+#slash {
+    margin: 15px 5px 15px 0px;
+    color: gray;
+}
+
+#specialization {
+    margin: 15px 0px 15px 5px;
+    color: gray;
+}
+
+/* a */
+li a {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    transition: color 1s;
+}
+a:hover {
+    color: #FA9429;
+}
+
+#current {
+    color: #FA9429;
+}
+/*  */
+
+#main-landing {
+    height: 400px;
+    margin: 40px 0 0 0;
+}
+
+#picture {
+    margin: 0;
+    width: 38%;
+    height: 400px;
+}
+#about-pic {
+    margin-left: 15%;
+    height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#FA9429;
+    border-radius: 400px;
+}
+
+#about {
+    margin-left: 10%;
+    padding: 80px 2% 0 2%;
+    width: 46%;
+}
+
+#name-div {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#download-a {
+    margin: 0;
+    padding: 0;
+}
+#download-button {
+    background-color: #338B7C;
+    color: #E1EFEC;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+#contact-and-gradient {
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #E1EFEC, #338B7C);
+}
+
+#contact-div {
+    margin: 100px auto;
+    padding: 0;
+    height: 200px;
+    width: 600px;
+    background-image: url("fonts_and_assets/contact-box@2x.png");
+    background-size: 600px 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
