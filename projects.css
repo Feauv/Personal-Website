@@ -1,10 +1,16 @@
 .project-div {
     margin: 20px auto 50px auto;
+    padding: 5px;
     width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #338B7C;
+    border-radius: 10px;
 }
 
 .title {
     font-size: 40px;
+    color: #338B7C;
 }
 
 .description {
