@@ -1,11 +1,11 @@
 .project-div {
     margin: 20px auto 50px auto;
-    padding: 5px;
+    padding: 10px;
     width: 90%;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 1px;
     border-color: #338B7C;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .title {
@@ -13,6 +13,27 @@
     color: #338B7C;
 }
 
+.subtitle {
+    font-size: 25px;
+    color: #338B7C;
+}
+
 .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.keywords {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FA9429;
+    border-radius: 10px;
+}
+
+.notes {
     font-size: 18px;
 }
