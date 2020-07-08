@@ -20,7 +20,6 @@
 
 .description {
     font-size: 18px;
-    margin-bottom: 30px;
 }
 
 .keywords {
@@ -36,4 +35,13 @@
 
 .notes {
     font-size: 18px;
+}
+
+a {
+    color: #338B7C;
+    text-decoration: none;
+}
+
+#indiegogo-image {
+    border-radius: 30px;
 }

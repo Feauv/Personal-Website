@@ -1,0 +1,20 @@
+.contact-div {
+    margin: 20px auto;
+    width: 90%;
+
+}
+
+.title {
+    color: #338B7C;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-contact-div {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #338B7C;
+}

@@ -1,0 +1,6 @@
+TO DOs:
+- Responsive Design
+- Continue About the Site
+- CSS Organization on Contact, About, Projects
+- Github API
+- Contact Box on Landing Page
